@@ -1,0 +1,19 @@
+# TR: Sirlar ve ortam dosyalari. / EN: Secrets and environment files.
+.env
+*.env
+!.env.example
+
+# TR: Python artefaktlari. / EN: Python artifacts.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# TR: Yerel veritabanlari ve cache. / EN: Local databases and cache.
+*.db
+*.sqlite
+.cache/

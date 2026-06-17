@@ -1,0 +1,5 @@
+# TR: pip kullananlar icin. / EN: For pip users. (`pip install -r requirements.txt`)
+openai-agents>=0.4.2
+pydantic-settings>=2.5.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
