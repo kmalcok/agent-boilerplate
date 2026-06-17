@@ -1,0 +1,10 @@
+# TR: Metin dosyalarini her zaman text olarak isle (binary algilanmasini onler).
+# EN: Always treat these as text (prevents Git from detecting them as binary).
+*.md   text eol=lf
+*.py   text eol=lf
+*.toml text eol=lf
+*.txt  text eol=lf
+*.cfg  text eol=lf
+*.ini  text eol=lf
+.env.example text eol=lf
+Makefile text eol=lf
